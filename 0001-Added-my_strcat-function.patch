@@ -1,0 +1,27 @@
+From a35b58ade56f4000f3bcbf8dd26bf7e985fcaf3e Mon Sep 17 00:00:00 2001
+From: w82318029 <w82318029@163.com>
+Date: Wed, 26 Jan 2022 14:11:20 +0800
+Subject: [PATCH] Added my_strcat function
+
+---
+ src/string.py | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+diff --git a/src/string.py b/src/string.py
+index 42fd1dd..9979600 100644
+--- a/src/string.py
++++ b/src/string.py
+@@ -4,4 +4,7 @@ var1 = 'Hello World!'
+ var2 = "Python Programming"
+ 
+ print ("var1[0]: ", var1[0])
+-print ("var2[1:5]: ", var2[1:5]) # 切片加索引
+\ No newline at end of file
++print ("var2[1:5]: ", var2[1:5]) # 切片加索引
++
++def stract():
++    return
+\ No newline at end of file
+-- 
+2.34.1.windows.1
+
